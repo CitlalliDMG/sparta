@@ -34,9 +34,8 @@ firebase.auth().onAuthStateChanged(user => {
       `<div class="container">
          <div class="row">
          <div> <img class= "circle photoProfile" src= ${photoProfile}></div>
-         <div class="name">
-         <p> <strong> ${user.displayName} </strong></p>
-         </div>
+         <p class="name"> <strong> ${user.displayName} </strong></p>
+         
          <div class="email">
          </div>
 
@@ -44,3 +43,4 @@ firebase.auth().onAuthStateChanged(user => {
          </div>`;
    
   };
+
