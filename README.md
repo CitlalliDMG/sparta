@@ -42,21 +42,24 @@ En la tarea de conocer a nuestro usuario, generamos un **Emphaty map** que nos a
 
 * El usuario quiere tener información general y particular de sus equipos de trabajo
 
+##PROTOTIPADO
 
-
-## Wireframes
+###Wireframes
 
 Log in: El usuario puede acceder fácilmente con su cuenta de google
+![](https://raw.githubusercontent.com/CitlalliDMG/sparta/master/img/scketch00.jpg)
 
+### Dashboard:
+* La plataforma está personalizada con la foto, nombre del usuario.
+* Cuenta con una vista general de las columnas de las tarea
+* Cuenta con amenidades (Vista de noticias e información que le interesa.
 
-## Dashboard:
-La plataforma está personalizada con la foto, nombre del usuario
-Cuenta con una vista general de las columnas de las tarea
-Cuenta con amenidades (Vista de noticias e información que le interesa.
+![](https://raw.githubusercontent.com/CitlalliDMG/sparta/master/img/scketch01.jpg)
 
+### Modal
 
+* La tarea debe de estar identificada con el nombre de la persona que la creó.
+* La tarea debe de estar identificada con quien la asignó.
+* La tarea debe de estar identificada con la fecha de creación.
 
-
-## Prototipo con funcionalidades
-
-##Test de usabilidad
+![](https://raw.githubusercontent.com/CitlalliDMG/sparta/master/img/scketchmodal.jpg)
