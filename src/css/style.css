@@ -2,6 +2,11 @@ body{
     height: 100%;
 }
 
+#logo_inicio{
+  width: 150px;
+  vertical-align: middle;
+}
+
 #div1, #div2, #div3, #div4, #div5, #div6 {
     float: left;
     width: 100px;
