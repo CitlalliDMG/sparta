@@ -15,7 +15,7 @@ function drop(ev) {
 let print = document.getElementById('print');
 const btnAdd = document.getElementById('add');
 
-btnAdd.addEventListener('click', e =>{
+btnAdd.addEventListener('click', event =>{
   let hw = prompt('¿Cúal es tu tarea?');
   console.log(hw);
   

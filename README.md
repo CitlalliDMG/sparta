@@ -12,7 +12,7 @@ Nuestro usuario se llama José Deniro, tiene 40 años y trabaja como PM en CitiB
 ![](https://raw.githubusercontent.com/CitlalliDMG/sparta/master/img/persona.jpg)
 
 
-###Costumer Jourtney
+### Costumer Jourtney
 Entrevistamos al usuario en tres ocasiones e indagamos en:
 
 
@@ -25,14 +25,14 @@ Entrevistamos al usuario en tres ocasiones e indagamos en:
 ![](https://raw.githubusercontent.com/CitlalliDMG/sparta/master/img/IMG_20180811_132816.jpg)
 
 
-###Emphaty map
+### Emphaty map
 
 En la tarea de conocer a nuestro usuario, generamos un **Emphaty map** que nos ayuda a visualizar cuales son sus motivaciones y sus ** *pain points* **
 
 ![](https://raw.githubusercontent.com/CitlalliDMG/sparta/master/img/empathy-map-no-stickies%20(1).png)
 
 
-##Conclusiones (Insights)
+## Conclusiones (Insights)
 
 ### Historias de usuario
 
@@ -42,9 +42,9 @@ En la tarea de conocer a nuestro usuario, generamos un **Emphaty map** que nos a
 
 * El usuario quiere tener información general y particular de sus equipos de trabajo
 
-##PROTOTIPADO
+## PROTOTIPADO
 
-###Wireframes
+### Wireframes
 
 Log in: El usuario puede acceder fácilmente con su cuenta de google
 ![](https://raw.githubusercontent.com/CitlalliDMG/sparta/master/img/scketch00.jpg)
@@ -63,3 +63,32 @@ Log in: El usuario puede acceder fácilmente con su cuenta de google
 * La tarea debe de estar identificada con la fecha de creación.
 
 ![](https://raw.githubusercontent.com/CitlalliDMG/sparta/master/img/scketchmodal.jpg)
+
+
+## Prototipo con funcionalidades
+
+Teniendo en cuenta la estructura y funcionalidad, la plataforma cuenta con un registro via Google, para comodidad del usuario.
+
+![](https://github.com/CitlalliDMG/sparta/blob/master/img/Prototipo%20login.png)
+
+Siguiendo el flujo del programa el tablero 
+<p align="center">
+ <img src="img/Prototipo vista01.png"> 
+</p>
+
+<p align="center">
+ <img src="img/Prototipo vista02.png"> 
+</p>
+
+<p align="center">
+ <img src="img/Prototipo vista03.png"> 
+</p>
+
+<p align="center">
+ <img src="img/testing.jpeg"> 
+</p>
+
+<p align="center">
+ <img src="img/testing.jpeg"> 
+</p>
+
