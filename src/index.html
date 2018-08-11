@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Auth</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>log in</title>
 </head>
 <body>
-    <h1>Hola</h1>
-    <script src="js/auth.js"></script>
-    <script data-main="scripts/main" src="scripts/require.js"></script>
+        <nav class="row">
+                <div class="nav-wrapper">
+                  <form>
+                    <div class="input-field blue darken-1">
+                      <div id="brand-logo1" class="right brand-logo blue darken-1">Citibanamex</div>
+                    </div>
+                  </form>
+                </div>
+              </nav>
+    <form>
+        <div class="container">
+          <div class="row center">
+            <p class="pmt">
+              <strong>Citi Proyect Management tool </strong>
+            </p>
+          </div>
 
+
+          <div class="row">
+            <div class=" but btn-large  buttns col s12 m12 l12">
+              <a id="login-google-btn">Continuar con Google</a>
+            </div>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+
+
+    <script src="../src/js/logIn.js"></script>
 </body>
+
 </html>
