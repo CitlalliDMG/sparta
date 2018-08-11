@@ -34,7 +34,7 @@ firebase.auth().onAuthStateChanged(user => {
     let photoProfile = (user.photoURL);
       profileContainer.innerHTML =
       `<div class="container">
-       <img class="right" src="https://www.banamex.com/assets/img/citibanamex-logo.png"
+        <img class="right" src="../../img/citibanamex-png-1-paso-1-3110.png"
                               width="150px" >
         <div class="row">
         <div> <img class= "circle photoProfile" src= ${photoProfile}></div>
