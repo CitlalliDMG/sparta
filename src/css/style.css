@@ -1,6 +1,6 @@
-body {
-    background: dimgrey;
-}
+/* body {
+    /* background: dimgrey; */
+
 
 .fill {
     background: seashell;
@@ -16,4 +16,8 @@ body {
     display: inline-block;
     height: 15%;
     width: 10%;
+}
+
+a{
+    color:white;
 }
