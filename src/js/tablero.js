@@ -7,7 +7,9 @@ var config = {
     messagingSenderId: "587990770634"
   };
   firebase.initializeApp(config);
-let profileContainer = document.getElementById('profile-container')
+
+let profileContainer = document.getElementById('profile-container');
+let signOutBtn = document.getElementById('sign-out-btn');
 
 // observador estamos o no logueados
 firebase.auth().onAuthStateChanged(user => {
@@ -32,15 +34,25 @@ firebase.auth().onAuthStateChanged(user => {
     let photoProfile = (user.photoURL);
       profileContainer.innerHTML =
       `<div class="container">
-         <div class="row">
-         <div> <img class= "circle photoProfile" src= ${photoProfile}></div>
-         <p class="name"> <strong> ${user.displayName} </strong></p>
-         
-         <div class="email">
-         </div>
-
+       <img class="right" src="https://www.banamex.com/assets/img/citibanamex-logo.png"
+                              width="150px" >
+        <div class="row">
+        <div> <img class= "circle photoProfile" src= ${photoProfile}></div>
+        <p class="name">  ${user.displayName}</p>
+        <p id="sign-out-btn" onclick="signOut()" class="right">Sign out</p>         
+        <div class="email">
+        </div>
          </div>
          </div>`;
    
   };
 
+const signOut = ()=>{
+  // console.log('hola');
+    firebase.auth().signOut().then(function() {
+        location.href ='../index.html';
+        // Sign-out successful.
+      }).catch(function(error) {
+        // An error happened.
+      });
+};

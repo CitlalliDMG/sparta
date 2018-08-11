@@ -63,6 +63,7 @@ a {
 
 .name {
     color: white;
+    font-weight: bolder;
 }
 
 #div1,
@@ -73,4 +74,8 @@ a {
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
+}
+#sign-out-btn{
+    color: white;
+    font-weight: bold;
 }
