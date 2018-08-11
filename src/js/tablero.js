@@ -14,7 +14,6 @@ firebase.auth().onAuthStateChanged(user => {
     if (user) {
       // estamos logueados
       mandarUsuarioDatabase(user);
-      printPost();
     } else {
       console.log('not logged in ');
     }
