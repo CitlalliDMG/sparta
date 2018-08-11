@@ -1,0 +1,19 @@
+body {
+    background: dimgrey;
+}
+
+.fill {
+    background: seashell;
+    position: relative;
+    height: 10%;
+    width: 5;
+    top: 3%;
+    left: 3%;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 15%;
+    width: 10%;
+}
