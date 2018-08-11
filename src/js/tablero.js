@@ -39,7 +39,6 @@ firebase.auth().onAuthStateChanged(user => {
         <div class="row">
         <div> <img class= "circle photoProfile" src= ${photoProfile}></div>
         <p class="name">  ${user.displayName}</p>
-        <p id="sign-out-btn" onclick="signOut()" class="right">Sign out</p>         
         <div class="email">
         </div>
          </div>
