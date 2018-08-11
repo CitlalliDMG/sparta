@@ -1,41 +1,13 @@
-const fill = document.querySelector('.fill');
-const empties = document.querySelectorAll('.empty');
-
-fill.addEventListener('dragstart', dragStart);
-fill.addEventListener('dragend', dragEnd);
-
-// Bucle a través de vacíos y llamando eventos drag
-
-for(const empty of empties) {
-    empty.addEventListener('dragover', dragOver);
-    empty.addEventListener('dragenter', dragEnter);
-    empty.addEventListener('dragLeave', dragLeave);
-    empty.addEventListener('drop', dragDrop);
+function allowDrop(ev) {
+    ev.preventDefault();
 }
 
-// Funciones de arrastre
-
-function dragStart() {
-    this.className += 'hold';
-    setTimeout(() => (this.className = 'invisible'), 0);
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
 }
 
-function dragEnd(){
-    this.className = 'fill';
-}
-
-function dragOver(){
-    
-}
-
-function dragEnter(){
-    
-}
-
-function dragLeave(){
-    
-}
-
-function dragDrop(){
-    
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
 }
