@@ -1,6 +1,6 @@
-body {
-    background: dimgrey;
-}
+/* body {
+    /* background: dimgrey; */
+
 
 .fill {
     background: seashell;
@@ -16,4 +16,17 @@ body {
     display: inline-block;
     height: 15%;
     width: 10%;
+}
+
+a{
+    color:white;
+}
+
+.but{
+   background-color:#0d47a1;
+
+}
+.pmt{
+    /* color:#0d47a1; */
+    font-size:200%;
 }
