@@ -92,3 +92,5 @@ Siguiendo el flujo del programa el tablero
  <img src="img/testing.jpeg"> 
 </p>
 
+https://marvelapp.com/73g18i8/screen/46684127
+
