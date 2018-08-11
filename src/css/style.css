@@ -5,3 +5,30 @@
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
+}
+
+.hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
+
+a{
+    color:white;
+}
+
+.but{
+   background-color:#0d47a1;
+
+}
+.pmt{
+color:#0d47a1; 
+    font-size:200%;
+}
+
+.photoProfile{
+width: 10%;
+}
